@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:theme="@style/FullBleedTheme"
+                android:fitsSystemWindows="true"
+                android:clipToPadding="false"
+                tools:context=".MainActivity">
+    <RelativeLayout
+        android:background="@color/actionbar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:id="@+id/relativeLayout">
+
+        <RelativeLayout
+            android:id="@id/left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@id/left_icon"
+                android:paddingRight="@dimen/mainpage_actionbar_leftbtn_rightpadding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sliding_menu_icon"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null" />
+            <TextView android:id="@id/title_tv"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="@dimen/mainpage_actionbar_title_leftspace"
+                      android:text="@string/allcourse"
+                      android:layout_alignParentLeft="true"
+                      android:layout_centerVertical="true"
+                      style="@style/MainPageTitleStyle" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:layout_alignParentRight="true"
+                      android:layout_centerVertical="true">
+            <Button
+                android:id="@id/secondright_btn"
+                android:background="@drawable/search_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@id/right_btn"
+                android:background="@drawable/classify_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/main_pulltorefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentBottom="true">
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</RelativeLayout>

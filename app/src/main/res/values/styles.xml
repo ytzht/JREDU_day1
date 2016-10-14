@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FullBleedTheme" parent="android:Theme.Holo.Light.NoActionBar.TranslucentDecor">
+        <!-- API 19 theme customizations can go here. -->
+    </style>
+
+
+    <style name="MediaController_SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:maxHeight">13.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:minHeight">13.0dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo</item>
+        <item name="android:thumbOffset">16.0dip</item>
+    </style>
+    <style name="MediaController_Text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="MyCourseShareTextStyle">
+        <item name="android:textSize">@dimen/text_12_size</item>
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/public_app_bg</item>
+        <item name="android:windowAnimationStyle">@style/AppAnimation</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <style name="ToastTheme">
+        <item name="android:windowBackground">@drawable/toast_corners_bg</item>
+    </style>
+    <style name="LoadDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/basedialog_corners_bg</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="LoginLoadDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="TitleAndContentTextStyle">
+        <item name="android:textSize">@dimen/text_commen_size</item>
+        <item name="android:textColor">@color/text_titleandcontent</item>
+    </style>
+    <style name="TipsOrModerateTextStyle">
+        <item name="android:textSize">@dimen/text_tips_size</item>
+        <item name="android:textColor">@color/text_moderate</item>
+    </style>
+    <style name="BlueButtonTextStyle">
+        <item name="android:textSize">@dimen/text_commen_size</item>
+        <item name="android:textColor">@color/text_button</item>
+    </style>
+    <style name="BlueButtonBigTextStyle">
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="android:textColor">@color/text_button</item>
+    </style>
+    <style name="GreyBigTextStyle">
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="android:textColor">@color/text_moderate</item>
+    </style>
+    <style name="GuidanceViewTextStyle">
+        <item name="android:textSize">@dimen/text_commen_size</item>
+        <item name="android:textColor">@color/text_moderate</item>
+    </style>
+    <style name="TipsWithStrengthenTextStyle">
+        <item name="android:textSize">@dimen/text_tips_size</item>
+        <item name="android:textColor">@color/text_strengthen</item>
+    </style>
+    <style name="BigerSizeDarkGreyTextStyle">
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="android:textColor">@color/text_heavygrey</item>
+    </style>
+    <style name="SlidingUserJobTextStyle">
+        <item name="android:textSize">@dimen/text_tips_size</item>
+        <item name="android:textColor">@color/text_moderate</item>
+    </style>
+    <style name="SlidingItemTextStyle">
+        <item name="android:textSize">@dimen/text_commen_size</item>
+        <item name="android:textColor">@color/text_titleandcontent</item>
+    </style>
+    <style name="SlidingItemSelectedTextStyle">
+        <item name="android:textSize">@dimen/text_commen_size</item>
+        <item name="android:textColor">@color/actionbar_bg</item>
+    </style>
+    <style name="ShowCourseLabelStyle">
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="android:textColor">@color/actionbar_bg</item>
+    </style>
+    <style name="TimeTextStyle">
+        <item name="android:textSize">@dimen/text_tips_light_size</item>
+        <item name="android:textColor">@color/text_moderate</item>
+    </style>
+    <style name="DialogButtonTextStyle">
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="android:textColor">@color/text_titleandcontent</item>
+    </style>
+    <style name="ListViewLineStyle">
+        <item name="android:background">@color/public_divide_line</item>
+        <item name="android:layout_height">@dimen/public_divide_line</item>
+    </style>
+    <style name="CenterSizeDarkGreyTextStyle">
+        <item name="android:textSize">@dimen/text_commen_size</item>
+        <item name="android:textColor">@color/text_heavygrey</item>
+    </style>
+    <style name="CenterSizeLightGreyTextStyle">
+        <item name="android:textSize">@dimen/text_commen_size</item>
+        <item name="android:textColor">@color/base_grey_light</item>
+    </style>
+    <style name="CourseDetailNameStyle">
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="android:textColor">@color/text_titleandcontent</item>
+    </style>
+    <style name="ShareWindowTextStyle">
+        <item name="android:textSize">@dimen/text_tips_size</item>
+        <item name="android:textColor">@color/text_heavygrey</item>
+    </style>
+    <style name="FullscreenSectionSelectedTextStyle">
+        <item name="android:textSize">@dimen/text_tips_size</item>
+        <item name="android:textColor">@color/base_white</item>
+    </style>
+    <style name="PersionalDialogTextStyle">
+        <item name="android:textSize">@dimen/text_actionbar_size</item>
+        <item name="android:textColor">@color/text_red</item>
+    </style>
+    <style name="PersonalInfoTitleStyle">
+        <item name="android:textSize">@dimen/text_commen_size</item>
+        <item name="android:textColor">@color/base_grey_moderate</item>
+    </style>
+    <style name="PersonalTabTextStyle">
+        <item name="android:textSize">@dimen/text_commen_size</item>
+        <item name="android:textColor">@color/base_grey_heavy</item>
+    </style>
+    <style name="PlayerSectionTitleStyle">
+        <item name="android:textSize">@dimen/text_commen_size</item>
+        <item name="android:textColor">@color/public_app_bg</item>
+    </style>
+    <style name="MainPageTitleStyle">
+        <item name="android:textSize">@dimen/text_actionbar_size</item>
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+    <style name="SearchInputStyle">
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+    <style name="NotificationMainStyle">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff656e73</item>
+    </style>
+    <style name="NotificationAdditionalStyle">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#ff99a1a6</item>
+    </style>
+    <style name="UpdateTipTitleStyle">
+        <item name="android:textSize">@dimen/text_actionbar_size</item>
+        <item name="android:textColor">@color/text_titleandcontent</item>
+    </style>
+    <style name="VersionTextStyle">
+        <item name="android:textSize">@dimen/text_tips_size</item>
+        <item name="android:textColor">@color/text_red</item>
+    </style>
+    <style name="articleTitleTextStyle">
+        <item name="android:textSize">@dimen/text_supper_size</item>
+        <item name="android:textColor">@color/text_titleandcontent</item>
+    </style>
+    <style name="BroserMenuTextStyle">
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="android:textColor">@color/text_moderate</item>
+    </style>
+    <style name="ArticleCommentTitleStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+    <style name="ArticleCommentHintStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+    <style name="MyNoteTopbarStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/base_grey_light</item>
+    </style>
+    <style name="MyNoteRightNumStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/base_grey_light</item>
+    </style>
+    <style name="MyNoteTitleStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+    <style name="MyNoteChapterTitleStyle">
+        <item name="android:textSize">@dimen/text_actionbar_size</item>
+        <item name="android:textColor">@color/text_titleandcontent</item>
+    </style>
+    <style name="AppAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_right_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_left_out</item>
+    </style>
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_corners_bg</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="NetworkDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="PopwindowStyle">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="SectionPopwindowStyle">
+        <item name="android:windowEnterAnimation">@anim/section_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/section_push_bottom_out</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/base_alpha_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

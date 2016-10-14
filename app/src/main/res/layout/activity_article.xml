@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+             tools:context="com.jredu_day1.ArticleActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#f18302"
+        android:id="@+id/relativeLayout2">
+        <ImageView
+            android:id="@id/left_icon"
+            android:paddingRight="@dimen/mainpage_actionbar_leftbtn_rightpadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/videoplayer_back"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:layout_marginLeft="5dp"/>
+        <TextView android:id="@id/title_tv"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="浏览器打开"
+                  style="@style/MainPageTitleStyle"
+                  android:layout_marginLeft="30dp"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentEnd="true"
+                  android:layout_marginEnd="15dp"/>
+    </RelativeLayout>
+    <WebView
+        android:id="@+id/webview"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/load_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_below="@+id/relativeLayout2"
+        android:background="#AA000000"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="正在加载"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

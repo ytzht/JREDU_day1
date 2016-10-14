@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/head_image_0" />
+    <item android:duration="50" android:drawable="@drawable/head_image_1" />
+    <item android:duration="50" android:drawable="@drawable/head_image_2" />
+    <item android:duration="50" android:drawable="@drawable/head_image_3" />
+    <item android:duration="50" android:drawable="@drawable/head_image_4" />
+    <item android:duration="50" android:drawable="@drawable/head_image_5" />
+    <item android:duration="50" android:drawable="@drawable/head_image_6" />
+    <item android:duration="50" android:drawable="@drawable/head_image_7" />
+    <item android:duration="50" android:drawable="@drawable/head_image_8" />
+    <item android:duration="50" android:drawable="@drawable/head_image_9" />
+    <item android:duration="50" android:drawable="@drawable/head_image_10" />
+    <item android:duration="50" android:drawable="@drawable/head_image_11" />
+    <item android:duration="50" android:drawable="@drawable/head_image_12" />
+    <item android:duration="50" android:drawable="@drawable/head_image_13" />
+    <item android:duration="50" android:drawable="@drawable/head_image_14" />
+    <item android:duration="50" android:drawable="@drawable/head_image_15" />
+    <item android:duration="50" android:drawable="@drawable/head_image_16" />
+    <item android:duration="50" android:drawable="@drawable/head_image_17" />
+    <item android:duration="50" android:drawable="@drawable/head_image_18" />
+    <item android:duration="50" android:drawable="@drawable/head_image_19" />
+    <item android:duration="50" android:drawable="@drawable/head_image_20" />
+    <item android:duration="50" android:drawable="@drawable/head_image_21" />
+    <item android:duration="50" android:drawable="@drawable/head_image_22" />
+    <item android:duration="50" android:drawable="@drawable/head_image_23" />
+    <item android:duration="50" android:drawable="@drawable/head_image_24" />
+    <item android:duration="50" android:drawable="@drawable/head_image_25" />
+    <item android:duration="50" android:drawable="@drawable/head_image_26" />
+    <item android:duration="50" android:drawable="@drawable/head_image_27" />
+    <item android:duration="50" android:drawable="@drawable/head_image_28" />
+    <item android:duration="50" android:drawable="@drawable/head_image_29" />
+    <item android:duration="50" android:drawable="@drawable/head_image_30" />
+</animation-list>

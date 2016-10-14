@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="mediacontroller_bg_pressed">#ff53c1bd</color>
+    <color name="mediacontroller_bg">#99000000</color>
+    <color name="text_gray">#ff999999</color>
+    <color name="base_alpha_transparent">#9a000000</color>
+    <color name="base_black_absolute">#ff000000</color>
+    <color name="base_black">#ff333333</color>
+    <color name="base_blue">#ff33bbff</color>
+    <color name="base_grey_heavy">#ff666666</color>
+    <color name="base_green">#ff68c73e</color>
+    <color name="base_grey_moderate">#ff999999</color>
+    <color name="base_grey_rareuse">#ffb9b9b9</color>
+    <color name="base_grey_light">#ffc6c6c6</color>
+    <color name="base_red">#f18302</color>
+    <color name="base_grey">#ff3b3b3b</color>
+    <color name="base_grey_rare">#ffd4d4d4</color>
+    <color name="base_grey_towhite">#ffdadada</color>
+    <color name="base_grey_morewhite">#ffe2e2e2</color>
+    <color name="base_grey_morewhite_2">#ffe8e8e8</color>
+    <color name="base_grey_white">#fff1f1f1</color>
+    <color name="base_grey_ligter">#fff6f6f6</color>
+    <color name="base_grey_ligtest">#fff9f9f9</color>
+    <color name="base_white">#ffffffff</color>
+    <color name="base_grey_lighter">#ffe8e8e8</color>
+    <color name="base_alpha_black">#99000000</color>
+    <color name="base_alpha_black_absolute">#66000000</color>
+    <item type="color" name="public_app_bg">@color/base_white</item>
+    <item type="color" name="public_item_bg">@color/base_white</item>
+    <item type="color" name="public_grey_item_bg">@color/base_grey_ligtest</item>
+    <item type="color" name="public_item_pressed">@color/base_grey_white</item>
+    <item type="color" name="public_divide_line">@color/base_grey_towhite</item>
+    <item type="color" name="public_divide_heavy_line">@color/base_grey_light</item>
+    <item type="color" name="public_divide_apptheme_line">@color/base_red</item>
+    <item type="color" name="public_mainlaoding_bg">@color/base_alpha_black</item>
+    <item type="color" name="sliding_item_selected">@color/base_grey_lighter</item>
+    <item type="color" name="text_titleandcontent">@color/base_black</item>
+    <item type="color" name="text_moderate">@color/base_grey_moderate</item>
+    <item type="color" name="text_button">@color/base_blue</item>
+    <item type="color" name="text_strengthen">@color/base_green</item>
+    <item type="color" name="text_white">@color/base_white</item>
+    <item type="color" name="text_heavygrey">@color/base_grey_heavy</item>
+    <item type="color" name="text_red">@color/base_red</item>
+    <item type="color" name="text_hint">@color/base_grey_light</item>
+    <item type="color" name="actionbar_bg">@color/base_red</item>
+    <item type="color" name="test_color">@color/base_green</item>
+    <color name="alpha_window_botton_color">#ff1b1b1b</color>
+    <color name="window_bottom_color">#e61b1b1b</color>
+    <color name="fullscreen_bottom_color">#e61f1f1f</color>
+    <color name="fullscreen_item_select_color">#ff1f1f1f</color>
+    <item type="color" name="download_sdcard_color">@color/base_grey_rare</item>
+    <color name="download_status_color">#ff303030</color>
+    <color name="login_bg_color">#fff9f9f9</color>
+    <item type="color" name="mycourse_learnprogress_front">@color/base_green</item>
+    <item type="color" name="mycousre_learnprogress_bg">@color/base_grey_morewhite</item>
+    <item type="color" name="mycourse_share_bg">@color/base_grey_morewhite</item>
+    <item type="color" name="mycourse_cancle_fork">@color/base_grey_rare</item>
+    <item type="color" name="mycourse_shareandcancel_pressed_bg">@color/base_grey_rareuse</item>
+    <item type="color" name="classclassify_divide_line">@color/base_grey_light</item>
+    <color name="note_divide_line">#00000000</color>
+    <item type="color" name="share_dim_bg">@color/base_alpha_black_absolute</item>
+    <item type="color" name="slidemenu_bg">@color/base_grey_ligtest</item>
+    <item type="color" name="slidemenu_menus_selected">@color/base_grey_morewhite_2</item>
+    <color name="app_background_color">#EEEEEE</color>
+    <color name="actionBar">#18B4ED</color>
+    <color name="app_bk_white">#ffffff</color>
+    <color name="sliding_menu_pressed_color">#ccc</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="tab_text_color_normal">#000000</color>
+    <color name="tab_text_color_selected">#1570A6</color>
+
+    <color name="list_bg_normal">#ffffff</color>
+    <color name="list_bg_pressed">#DDDDDD</color>
+    <color name="bg_text">#d72a3e</color>
+
+    <!-- 个人信息中字体的颜色 -->
+    <color name="userinfo_text_color">#AA000000</color>
+    <color name="pop_btn_stoke_color">#CCCCCC</color>
+    <color name="pop_btn_pressed_color">#55000000</color>
+    <color name="pop_cancel_btn_color">#98A1C0</color>
+    <item type="color" name="setting_bg">@color/base_grey_ligtest</item>
+    <item type="color" name="setting_logout_pressed">@color/base_grey_white</item>
+    <item type="color" name="upgrade_progress_bg">@color/base_grey_morewhite</item>
+    <color name="section_played_name_color">#ff969b9e</color>
+    <item type="color" name="article_detail_bottomtoos_bg">@color/base_grey_ligter</item>
+</resources>

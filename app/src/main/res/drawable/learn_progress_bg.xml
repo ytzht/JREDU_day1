@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@*android:id/background">
+        <shape>
+            <corners android:radius="0.0dip" />
+            <gradient android:startColor="@color/mycousre_learnprogress_bg" android:endColor="@color/mycousre_learnprogress_bg" />
+        </shape>
+    </item>
+    <item android:id="@*android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="0.0dip" />
+                <gradient android:startColor="@color/mycourse_learnprogress_front" android:endColor="@color/mycourse_learnprogress_front" android:angle="270.0" android:centerY="0.75" android:centerColor="@color/mycourse_learnprogress_front" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-PullToRefresh-master/Android-PullToRefresh-master.iml" filepath="$PROJECT_DIR$/Android-PullToRefresh-master/Android-PullToRefresh-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JREDU_day1.iml" filepath="$PROJECT_DIR$/JREDU_day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PagerSlidingTabStrip-master/PagerSlidingTabStrip-master.iml" filepath="$PROJECT_DIR$/PagerSlidingTabStrip-master/PagerSlidingTabStrip-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenu-master/SlidingMenu-master.iml" filepath="$PROJECT_DIR$/SlidingMenu-master/SlidingMenu-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

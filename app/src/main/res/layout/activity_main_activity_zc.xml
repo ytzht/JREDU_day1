@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.jredu.MainActivity_zc">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#f18302"
+        android:gravity="center"
+        android:text="注册"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+    <RelativeLayout
+        android:id="@+id/uNameContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:focusable="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView"
+        android:focusableInTouchMode="true" >
+                <EditText
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/login_edit_background"
+                    android:hint="用户名"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:singleLine="true"
+                    android:textColor="#f18302"
+                    android:textColorHint="#f18302"
+                    android:textSize="18sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/uPwdContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:layout_marginTop="120dp"
+         >
+        <EditText
+            android:id="@+id/userPwd"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/login_edit_background"
+            android:hint="密码"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColor="#f18302"
+            android:textColorHint="#f18302"
+            android:textSize="18sp"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/uNickContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:layout_marginTop="180dp"
+        >
+        <EditText
+            android:id="@+id/userNick"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/login_edit_background"
+            android:hint="昵称"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColor="#f18302"
+            android:textColorHint="#f18302"
+            android:textSize="18sp"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/usexContainer"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        >
+        <EditText
+            android:id="@+id/usersex"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/login_edit_background"
+            android:hint="性别"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColor="#f18302"
+            android:textColorHint="#f18302"
+            android:textSize="18sp"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_below="@+id/usexContainer"
+        android:layout_alignParentStart="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/bt_zc"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+
+        android:layout_height="45dp"
+        android:background="@drawable/login_edit_background2"
+        android:text="注册"
+        android:textColor="#fff"
+        android:textSize="18sp"
+/>
+
+</LinearLayout>
+
+
+</RelativeLayout>

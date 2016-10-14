@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/chapter_section_unplay" android:maxLevel="0" />
+    <item android:drawable="@drawable/chapter_section_playing" android:maxLevel="1" />
+    <item android:drawable="@drawable/chapter_section_played" android:maxLevel="2" />
+    <item android:drawable="@drawable/chapter_section_unevaluation" android:maxLevel="3" />
+    <item android:drawable="@drawable/chapter_section_evaluationing" android:maxLevel="4" />
+    <item android:drawable="@drawable/chapter_section_evaluationed" android:maxLevel="5" />
+    <item android:drawable="@drawable/chapter_section_unprogramme" android:maxLevel="6" />
+    <item android:drawable="@drawable/chapter_section_programmeing" android:maxLevel="7" />
+    <item android:drawable="@drawable/chapter_section_programmed" android:maxLevel="8" />
+</level-list>

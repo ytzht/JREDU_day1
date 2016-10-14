@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+            android:scrollbars="none"
+            android:background="#fff9f9f9"
+            android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/sliding_root_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/top_color"
+            android:background="#f18302"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp">
+
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/info_layout"
+            android:paddingLeft="@dimen/slidemenu_infos_vertial_space"
+            android:paddingTop="@dimen/slidemenu_infos_horizon_space"
+            android:paddingRight="@dimen/slidemenu_infos_vertial_space"
+            android:paddingBottom="@dimen/slidemenu_infos_horizon_space"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/top_color"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.util.RoundImageView
+                    android:id="@+id/login_pic"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/user_default_login"
+                    android:scaleType="fitXY" />
+            </FrameLayout>
+            <RelativeLayout
+                android:paddingTop="@dimen/slidemenu_infos_text_space"
+                android:paddingBottom="@dimen/slidemenu_infos_text_space"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/slidemenu_infos_text_height"
+                android:layout_marginLeft="@dimen/slidemenu_pic2text_space">
+
+                <TextView
+                    android:id="@+id/login_rightnow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="立即登录"
+                    android:layout_centerVertical="true"
+
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/sliding_item_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_layout">
+            <RelativeLayout
+                android:id="@+id/allcourse_layout"
+                android:background="@drawable/menu_item_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/slidemenu_menu_height">
+                <ImageView
+                    android:id="@+id/allcourse_icon"
+                    android:background="@drawable/menu_allcourse_icon"
+                    android:layout_width="@dimen/slidemnu_menu_icon_size"
+                    android:layout_height="@dimen/slidemnu_menu_icon_size"
+                    android:layout_marginLeft="@dimen/slidemenu_menu_left_space"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null" />
+                <TextView
+                    android:id="@+id/allcourse_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/slidemenu_pic2text_space"
+                    android:text="@string/allcourse"
+                    android:layout_toRightOf="@id/allcourse_icon"
+                    android:layout_centerVertical="true"
+                    style="@style/TitleAndContentTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/mycourse_layout" android:background="@drawable/menu_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/slidemenu_menu_height" android:layout_below="@id/allcourse_layout">
+                <ImageView android:id="@+id/mycourse_icon" android:background="@drawable/menu_mycourse_icon" android:layout_width="@dimen/slidemnu_menu_icon_size" android:layout_height="@dimen/slidemnu_menu_icon_size" android:layout_marginLeft="@dimen/slidemenu_menu_left_space" android:layout_centerVertical="true" android:contentDescription="@null" />
+                <TextView android:id="@+id/mycourse_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slidemenu_pic2text_space" android:text="@string/mycourse" android:layout_toRightOf="@id/mycourse_icon" android:layout_centerVertical="true" style="@style/TitleAndContentTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/download_layout" android:background="@drawable/menu_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/slidemenu_menu_height" android:layout_below="@id/mycourse_layout">
+                <ImageView android:id="@+id/download_icon" android:background="@drawable/menu_download_icon" android:layout_width="@dimen/slidemnu_menu_icon_size" android:layout_height="@dimen/slidemnu_menu_icon_size" android:layout_marginLeft="@dimen/slidemenu_menu_left_space" android:layout_centerVertical="true" android:contentDescription="@null" />
+                <TextView android:id="@+id/download_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slidemenu_pic2text_space" android:text="@string/download" android:layout_toRightOf="@id/download_icon" android:layout_centerVertical="true" style="@style/TitleAndContentTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/mymessage_layout" android:background="@drawable/menu_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/slidemenu_menu_height" android:layout_below="@id/download_layout">
+                <ImageView android:id="@+id/mymessage_icon" android:background="@drawable/menu_mymessage_icon" android:layout_width="@dimen/slidemnu_menu_icon_size" android:layout_height="@dimen/slidemnu_menu_icon_size" android:layout_marginLeft="@dimen/slidemenu_menu_left_space" android:layout_centerVertical="true" android:contentDescription="@null" />
+                <TextView android:id="@+id/mymessage_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slidemenu_pic2text_space" android:text="@string/mymessage" android:layout_toRightOf="@id/mymessage_icon" android:layout_centerVertical="true" style="@style/TitleAndContentTextStyle" />
+                <ImageView android:id="@+id/new_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slidemenu_newmsg_space" android:src="@drawable/message_new_icon" android:layout_toRightOf="@id/mymessage_tv" android:layout_alignTop="@id/mymessage_icon" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/mynote_layout" android:background="@drawable/menu_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/slidemenu_menu_height" android:layout_below="@id/mymessage_layout">
+                <ImageView android:id="@+id/mynote_icon" android:background="@drawable/menu_mynote_icon" android:layout_width="@dimen/slidemnu_menu_icon_size" android:layout_height="@dimen/slidemnu_menu_icon_size" android:layout_marginLeft="@dimen/slidemenu_menu_left_space" android:layout_centerVertical="true" android:contentDescription="@null" />
+                <TextView android:id="@+id/mynote_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slidemenu_pic2text_space" android:text="@string/mynote" android:layout_toRightOf="@id/mynote_icon" android:layout_centerVertical="true" style="@style/TitleAndContentTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/article_layout" android:background="@drawable/menu_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/slidemenu_menu_height" android:layout_below="@id/mynote_layout">
+                <ImageView android:id="@+id/article_icon" android:background="@drawable/menu_article_icon" android:layout_width="@dimen/slidemnu_menu_icon_size" android:layout_height="@dimen/slidemnu_menu_icon_size" android:layout_marginLeft="@dimen/slidemenu_menu_left_space" android:layout_centerVertical="true" android:contentDescription="@null" />
+                <TextView android:id="@+id/article_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slidemenu_pic2text_space" android:text="@string/article" android:layout_toRightOf="@id/article_icon" android:layout_centerVertical="true" style="@style/TitleAndContentTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/setting_layout" android:background="@drawable/menu_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/slidemenu_menu_height" android:layout_below="@id/article_layout">
+                <ImageView android:id="@+id/setting_icon" android:background="@drawable/menu_setting_icon" android:layout_width="@dimen/slidemnu_menu_icon_size" android:layout_height="@dimen/slidemnu_menu_icon_size" android:layout_marginLeft="@dimen/slidemenu_menu_left_space" android:layout_centerVertical="true" android:contentDescription="@null" />
+                <TextView android:id="@+id/setting_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slidemenu_pic2text_space" android:text="@string/setting" android:layout_toRightOf="@id/setting_icon" android:layout_centerVertical="true" style="@style/TitleAndContentTextStyle" />
+                <ImageView android:id="@+id/new_image_setting" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slidemenu_newmsg_space" android:src="@drawable/message_new_icon" android:layout_toRightOf="@id/setting_tv" android:layout_alignTop="@id/setting_icon" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

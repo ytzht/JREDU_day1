@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="rowCount" format="integer" />
+    <attr name="swipelistOffsetLeft" format="dimension" />
+    <attr name="allowHeaderPull" format="boolean" />
+    <attr name="allowFooterPull" format="boolean" />
+    <attr name="allowSwipe" format="boolean" />
+    <attr name="supportLoadMore" format="boolean" />
+    <attr name="hasVerticalScrollbars" format="boolean" />
+    <attr name="titleLeftImage" format="reference" />
+    <attr name="titleLeftText" format="reference" />
+    <attr name="titleLeftTextColor" format="reference" />
+    <attr name="titleLeftTextSize" format="dimension" />
+    <attr name="titleMiddleText" format="reference" />
+    <attr name="titleMiddleTextColor" format="reference" />
+    <attr name="titleMiddleTextSize" format="dimension" />
+    <attr name="titleRightText" format="reference" />
+    <attr name="titleRightTextColor" format="reference" />
+    <attr name="titleRightTextSize" format="dimension" />
+    <attr name="maxCollapsedLines" format="integer" />
+    <attr name="animDuration" format="integer" />
+    <attr name="animAlphaStart" format="float" />
+    <attr name="expandDrawable" format="reference" />
+    <attr name="collapseDrawable" format="reference" />
+    <attr name="roundColor" format="reference" />
+    <attr name="roundWidth" format="dimension" />
+    <attr name="roundStartAngle" format="float" />
+    <attr name="slideButtonOn" format="reference" />
+    <attr name="sildeButtonOff" format="reference" />
+    <attr name="sildeButtonBg" format="reference" />
+    <attr name="sildeIsOn" format="boolean" />
+    <attr name="guideTitleText" format="reference" />
+    <attr name="guideImage" format="reference" />
+    <attr name="guideContentText" format="reference" />
+    <attr name="selectedColor" format="color" />
+    <attr name="selectLineHeight" format="dimension" />
+    <attr name="unSelectLineHeight" format="dimension" />
+</resources>

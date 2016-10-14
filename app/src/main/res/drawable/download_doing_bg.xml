@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <animated-rotate android:interpolator="@*android:anim/linear_interpolator" android:drawable="@drawable/download_circle" android:pivotX="50.0%" android:pivotY="50.0%"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </item>
+    <item android:drawable="@drawable/download_downloading" />
+</layer-list>
